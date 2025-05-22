@@ -75,6 +75,48 @@
 	
 	
 
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        const mediaQueryStatus = document.getElementById('mediaQueryStatus');
+
+        function updateDimensions() {
+            
+            const isMobile = window.matchMedia('(max-width: 600px)').matches;
+            //mediaQueryStatus.textContent = `Mobile Layout (≤600px): ${isMobile ? 'Yes' : 'No'}`;
+            localStorage.setItem('answerr', isMobile);
+
+            const answer = localStorage.getItem('answerr');
+
+            if(answer=="true"){
+                  window.location.href=("indexApp.html");
+            }
+            
+        }
+
+        let resizeTimeout;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(updateDimensions, 200);
+        });
+
+        updateDimensions();
+
+    </script>
+
+
+
+
+	
 	
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
