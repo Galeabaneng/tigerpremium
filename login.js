@@ -52,8 +52,8 @@ function signUpp(){
 };
 firebase.initializeApp(firebaseConfig);
 
-  var email = document.getElementById("email").value;
-  var password = document.getElementById("password").value;
+  var email = document.getElementById("emailUp").value;
+  var password = document.getElementById("passwordUp").value;
 
   firebase.auth().createUserWithEmailAndPassword(email, password)
     .then(function(user) {
