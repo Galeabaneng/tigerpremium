@@ -60,7 +60,7 @@ firebase.initializeApp(firebaseConfig);
 
         
       alert("Sign up successful!");
-      window.location.href=("main.html");
+      window.location.href=("index.html");
       
     })
     .catch(function(error) {
