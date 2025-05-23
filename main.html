@@ -1061,8 +1061,46 @@
                       <p onClick="moreGold()">More</p>
                     </ul>
                     <script>function moreGold(){alert("Fuel System\nFilters\nAir Conditioner\nThrottle\nGaskets\nSuspension\nExhaust System\nRadiator Service\nMounting\nFluid And Leakages\nVehicle Diagnosis\nElectrical System\nDrive Pulleys\nTowing");}</script>
-                    <a href="contact.html"
-                      class="cs_pricing_btn cs_fs_14 cs_bold cs_heading_color text-uppercase cs_radius_10">Choose Plan</a>
+                    
+                    
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: #1c9f51;
+  color: #ffffff;
+  padding: 5%;
+  width: 40%;
+  border-radius: 20px;
+  z-index: 990000;
+  margin-bottom: 20%;
+}
+
+.dropdown-content {
+  color: #000000;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 990000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<div class="dropdown">
+  <span>Choose Plan</span>
+  <div class="dropdown-content">
+    <p onClick="payPal()">PayPal</p>
+    <p onClick="visaSilver()">Visa</p>
+  </div>
+</div>
+<script>function visaSilver(){window.location.href=("checkoutSilver.html");}function payPal(){alert("paypal");}</script>
+                
                   </div>
                 </div>
               </div>
