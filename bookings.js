@@ -36,7 +36,7 @@ fetch('https://api.jsonbin.io/v3/b', {
 .then(jsonData => console.log(jsonData))
 .catch(error => console.error(error));
 
-alert("Querry Logged,an agent will contact you soon");
+alert("Thank You! An agent will contact you");
 
 }
 
