@@ -55,7 +55,7 @@ const secretKey = '$2a$10$pQOgIq2QOg86xvUJzMWNLedwaBnUP2a3qKA9ZWNZzJumuU5FdgABi'
 const binName= 'myBin';
 
 const data = {
-Name: email
+Subscriber: email
 
 
 };
