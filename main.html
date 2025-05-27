@@ -719,13 +719,13 @@
             </div>
             <form class="row cs_row_gap_30 cs_gap_y_30" id="cs_form">
               <div class="col-sm-6">
-                <input type="text" name="name" id="name" placeholder="Your Name" class="cs_form_field cs_radius_5">
+                <input type="text" name="name" id="name" placeholder="Your Name" required="" class="cs_form_field cs_radius_5">
               </div>
               <div class="col-sm-6">
-                <input type="email" name="email" id="email" placeholder="Your Email" class="cs_form_field cs_radius_5">
+                <input type="email" name="email" id="email" placeholder="Your Email"  required="" class="cs_form_field cs_radius_5">
               </div>
               <div class="col-sm-6">
-                <input type="text" name="subject" id="subject" placeholder="Subject" class="cs_form_field cs_radius_5">
+                <input type="text" name="subject" id="subject"  required="" placeholder="Subject" class="cs_form_field cs_radius_5">
               </div>
               <div class="col-sm-6 position-relative">
                 <select class="form-select cs_form_field cs_radius_5">
@@ -737,7 +737,7 @@
                 </select>
               </div>
               <div class="col-12">
-               <textarea name="message" id="message" rows="6" placeholder="Message" class="cs_form_field"></textarea>
+               <textarea name="message" id="message"  required="" rows="6" placeholder="Message" class="cs_form_field"></textarea>
               </div>
               <div class="col-12">
                 <button type="button" onClick="appointment()" class="cs_btn cs_style_1 wow fadeInRight" id="heroBtn">
