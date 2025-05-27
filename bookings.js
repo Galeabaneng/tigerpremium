@@ -28,7 +28,7 @@ fetch('https://api.jsonbin.io/v3/b', {
    'Content-Type': 'application/json',
    "X-Master-Key": secretKey,
    "X-Bin-Private": true,
-   'X-Bin-Name': "User Query"
+   'X-Bin-Name': "Booking And Appointment"
  },
  body: JSON.stringify(data)
 })
