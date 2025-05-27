@@ -58,63 +58,89 @@
         </div>
 
         <h6 class="product-name">
-          SILVER SERVICE CONTRACT<br>
+          SERVICE CONTRACT<br>
         </h6>
         <h6 class="product-code-name">
           Tiger ‎Premium
         </h6>
         <p class="product-price">
-          BWP2000
+          TIGER PREMIUM
         </p>
 
       </div>
 
       <div class="round-shape"></div>
     </div>
-    <div class="modal-info">
-      <div class="info">
-        <h4>Payment Information</h4>
-        <form action="#">
-          <ul class="form-list">
-            <li class="form-list-row">
-              <div class="user">
-                <label for="#">Name</label><br>
-                <i class="fas fa-user"></i></i><input type="text" required>
-              </div>
-            </li>
-            <li class="form-list-row">
-              <div class="number">
-                <label for="#">Card Number</label><br>
-                <i class="far fa-credit-card"></i><input type="text" required>
-              </div>
-            </li>
-            <li class="form-list-row clearfix">
-              <div class="date">
-                <label for="#">Expiration Date</label><br>
-                <input class="month" type="text" required placeholder="MM">
-                <input class="year" type="text" required placeholder="YY">
-              </div>
-              <div class="cvc">
-                <label for="#">CVC</label><i class="fas fa-question-circle"></i><br>
-                <input type="text" required placeholder="123">
-              </div>
-            </li>
-            <li class="form-list-row">
-              <div class="checkbox">
-                <label for="checkbox">
-                  <input id="checkbox" type="checkbox">
-                  <span>Remember My Information</span>
-                </label>
-              </div>
-            </li>
-          </ul>
-          <button>Checkout</button>
-        </form>
-      </div>
+
+<!------------------------------------------------------------>
+
+
+
+
+
+
+<section class="add-card page">
+  <form class="form">
+    <image class="img" src="images/img-02.png"></image>
+    <label for="name" class="label">
+      <span class="title">Card holder full name</span>
+      <input
+        class="input-field"
+        type="text"
+        name="input-name"
+        title="Input title"
+        placeholder="Enter your full name"
+      />
+    </label>
+    <label for="serialCardNumber" class="label">
+      <span class="title">Card Number</span>
+      <input
+        id="serialCardNumber"
+        class="input-field"
+        type="number"
+        name="input-name"
+        title="Input title"
+        placeholder="0000 0000 0000 0000"
+      />
+    </label>
+    <div class="split">
+      <label for="ExDate" class="label">
+        <span class="title">Expiry Date</span>
+        <input
+          id="ExDate"
+          class="input-field"
+          type="text"
+          name="input-name"
+          title="Expiry Date"
+          placeholder="01/27"
+        />
+      </label>
+      <label for="cvv" class="label" id="cvv">
+        <span class="title" > CVV</span>
+        <input
+          id="cvv"
+          class="input-field"
+          type="number"
+          name="cvv"
+          title="CVV"
+          placeholder="CVV"
+        />
+      </label>
     </div>
-  </div>
+    <input class="checkout-btn" type="button" value="Checkout" />
+  </form>
+</section>
 
 
+
+
+
+
+
+
+
+
+<!------------------------------------------------>
 
 
 
