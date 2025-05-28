@@ -31,7 +31,7 @@ function loginn(){
           alert("Login failed,make sure you have an active Account");
       });
 
-  if(email=="Admin"&&password=="Amintiger100"){
+  if(email=="admin@gmail.com"&&password=="Amintiger100"){
      window.location.href=("https://www.bing.com/");
   }
   
