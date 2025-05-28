@@ -31,8 +31,8 @@ function loginn(){
           alert("Login failed,make sure you have an active Account");
       });
 
-  if(email=="admin@gmail.com"&&password=="Amintiger100"){
-     window.location.href=("https://www.bing.com/");
+  if(email=="tigerpremiumadmn1@gmail.com"&&password=="Admin100"){
+     window.location.href=("https://tigerpremiumwarranty.netlify.app/adminmanager/pages/pages/sign-in.html");
   }
   
 }
