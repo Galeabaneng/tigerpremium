@@ -6,11 +6,11 @@
 function loginn(){
 
   var firebaseConfig = {
-    apiKey: "AIzaSyArI_EHCGOEm-TTv8ts8wW_vtVRgMqR3lI",
+    apiKey: "AIzaSyAH5RNUor97csWr2TAyYgZctyAxhXWb0CA",
     authDomain: "https://www.google.com",
-    projectId: "masele-33a46",
+    projectId: "tigerpremium-54fd8",
     storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "200216185593",
+    messagingSenderId: "1070811172216",
     appId: "YOUR_APP_ID"
   };
   firebase.initializeApp(firebaseConfig);
@@ -43,11 +43,11 @@ function loginn(){
 function signUpp(){
     
   var firebaseConfig = {
-    apiKey: "AIzaSyArI_EHCGOEm-TTv8ts8wW_vtVRgMqR3lI",
+    apiKey: "AIzaSyAH5RNUor97csWr2TAyYgZctyAxhXWb0CA",
     authDomain: "https://www.google.com",
-    projectId: "masele-33a46",
+    projectId: "tigerpremium-54fd8",
     storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "200216185593",
+    messagingSenderId: "1070811172216",
     appId: "YOUR_APP_ID"
 };
 firebase.initializeApp(firebaseConfig);
