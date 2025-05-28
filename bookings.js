@@ -10,7 +10,7 @@ function appointment(){
 
 
 
-const secretKey = '$2a$10$pQOgIq2QOg86xvUJzMWNLedwaBnUP2a3qKA9ZWNZzJumuU5FdgABi';
+const secretKey = '$2a$10$U6ZOem5n78Ct3BNfAK5gFOGDtIdaBJ5YkHe8NwpJRHavOFdXsIsZO';
 const binName= 'myBin';
 
 const data = {
@@ -51,7 +51,7 @@ function subscribe(){
 
 
 
-const secretKey = '$2a$10$pQOgIq2QOg86xvUJzMWNLedwaBnUP2a3qKA9ZWNZzJumuU5FdgABi';
+const secretKey = '$2a$10$U6ZOem5n78Ct3BNfAK5gFOGDtIdaBJ5YkHe8NwpJRHavOFdXsIsZO';
 const binName= 'myBin';
 
 const data = {
